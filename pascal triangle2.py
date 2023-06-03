@@ -19,7 +19,7 @@ def getRow(rowIndex):
                     adder = prev[j] +prev[j-1]
                     temp.append(adder)
                     adder = 0
-            temp.append(1)
+                    temp.append(1)
         res.append(temp)
         temp = []
 

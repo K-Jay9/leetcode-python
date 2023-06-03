@@ -3,6 +3,7 @@
 
 
 # A singly linked list in the most basic form
+
 class ListNode:
     def __init__(self, val, next=None):
         self.val = val
